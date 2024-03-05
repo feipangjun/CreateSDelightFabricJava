@@ -39,7 +39,7 @@ jobs:
           cache: gradle
 
       - name: build
-        run: ./gradlew buildOrPublish
+        run: ./gradlew
 
       - name: capture build artifacts
         uses: actions/upload-artifact@v4
